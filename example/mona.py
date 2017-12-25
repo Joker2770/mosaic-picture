@@ -8138,8 +8138,3 @@ draw.rect(screen,(6, 22, 22, 255),(355,545,4,4))
 draw.rect(screen,(5, 19, 20, 255),(355,550,4,4))
 draw.rect(screen,(5, 15, 17, 255),(355,555,4,4))
 display.flip()
-running = True
-while running:
-    for event in event.get():
-        if event.type == QUIT:
-            running = False
