@@ -22,10 +22,10 @@ for x in range(0,1366,5):
                                                 #将像素位置写入mona.py,形状为矩形
     mon.write("display.flip()\n")               #展示图片
 
-mon.write("""running = True
-while running:
-    for event in event.get():
-        if event.type == QUIT:
-            running = False
-quit()""") 
+#mon.write("""running = True
+#while running:
+#    for event in event.get():
+#        if event.type == QUIT:
+#            running = False
+#quit()""") 
 mon.close()                                     #保存关闭mon.py
