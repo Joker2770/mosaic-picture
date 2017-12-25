@@ -42472,9 +42472,3 @@ draw.rect(screen,(129, 124, 120, 255),(1365,755,4,4))
 draw.rect(screen,(130, 125, 121, 255),(1365,760,4,4))
 draw.rect(screen,(130, 125, 121, 255),(1365,765,4,4))
 display.flip()
-running = True
-while running:
-    for event in event.get():
-        if event.type == QUIT:
-            running = False
-quit()
