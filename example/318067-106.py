@@ -1,5 +1,6 @@
 from pygame import *
 from math import *
+import os
 
 screen = display.set_mode((1366,768))
 draw.rect(screen,(117, 117, 117, 255),(0,0,4,4))
@@ -42472,3 +42473,4 @@ draw.rect(screen,(129, 124, 120, 255),(1365,755,4,4))
 draw.rect(screen,(130, 125, 121, 255),(1365,760,4,4))
 draw.rect(screen,(130, 125, 121, 255),(1365,765,4,4))
 display.flip()
+os.system("pause")
